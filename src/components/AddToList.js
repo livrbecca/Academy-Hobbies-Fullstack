@@ -10,6 +10,7 @@ const AddToList = ({ allScholars, setAllScholars }) => {
     e.preventDefault();
     try {
       const body = { name, image_url, pod, notes };
+      // eslint-disable-next-line
       const response = await fetch(
         "https://whispering-atoll-74281.herokuapp.com/scholars",
         {
