@@ -1,3 +1,17 @@
+# Fullstack Application of the Academies Hobbies and Interests project.
+![fullstack](https://user-images.githubusercontent.com/69110329/131253861-474679c5-d95e-4e95-9b01-75259934f844.gif)
+- View the original repo here [https://github.com/livrbecca/Academy-Interests-Hobbies]. The original project was built entirely on the frontend useing React and TypeScript, data is not stored but mapped via a JSON file.
+
+### This Project is a fullstack application with the following stack (PERN)
+- Postgress SQL (Database)
+- Express
+- React
+- Node.js
+- Additional: TypeScript
+
+## Backend server
+- To view the backend server code and see it's endpoints, visit the repo [academy-hobbies-backend](https://github.com/livrbecca/academy-hobbies-backend)
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
