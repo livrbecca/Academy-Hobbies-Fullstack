@@ -13,7 +13,9 @@ const FilterButton = ({fetchScholars, allScholars,setAllScholars,}) => {
 
     const fetchPodColor = async (podcolor) => {
         try{
-            const response = await fetch(`http://localhost:5000/scholars/${podcolor}`)
+            const response = await fetch(
+              `https://whispering-atoll-74281.herokuapp.com/scholars/${podcolor}`
+            );
             const jsonData = await response.json()
             setAllScholars(jsonData)
         } catch (err){

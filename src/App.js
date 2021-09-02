@@ -12,7 +12,9 @@ function App() {
       
     const fetchScholars = async () => {
     try {
-      const response = await fetch("http://localhost:5000/scholars");
+      const response = await fetch(
+        "https://whispering-atoll-74281.herokuapp.com/scholars"
+      );
       const jsonData = await response.json();
       setAllScholars(jsonData);
       console.log(allScholars);
