@@ -2,6 +2,9 @@
 ![fullstack](https://user-images.githubusercontent.com/69110329/131253861-474679c5-d95e-4e95-9b01-75259934f844.gif)
 - View the original repo here [https://github.com/livrbecca/Academy-Interests-Hobbies]. The original project was built entirely on the frontend useing React and TypeScript, data is not stored but mapped via a JSON file.
 
+## Demo the project on Netflify:
+- https://academy-scholars-9d3632.netlify.app
+
 ### This Project is a fullstack application with the following stack (PERN)
 - Postgress SQL (Database)
 - Express
@@ -11,6 +14,12 @@
 
 ## Backend server
 - To view the backend server code and see it's endpoints, visit the repo [academy-hobbies-backend](https://github.com/livrbecca/academy-hobbies-backend)
+
+## Notes onteracting with Heroku and the database
+- .env file needs to contain the port number and the ```DATABASE_URL``` - postgres://database-username@localhost/database-name
+- On Heroku dashboard, add 'Heroku Postgres' as an add on
+- Create a DB, copy the URI to clipboard, use as connection string in Beekeeper Studios
+- To copy data across, use CSV file, more info here: https://help.heroku.com/KTXB2SJT/how-do-i-copy-a-csv-file-into-a-postgres-table
 
 # Getting Started with Create React App
 
